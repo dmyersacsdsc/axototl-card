@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Axolotl Card</title>
+  <style>
+    body {
+      background: #e0f7fa;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      padding: 20px;
+      display: inline-block;
+      max-width: 400px;
+      position: relative;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .label {
+      margin-top: 15px;
+      font-size: 1.2em;
+      color: #007777;
+      font-weight: bold;
+    }
+    .logo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 60px;
+      border-radius: 50%;
+    }
+    .qr {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="logo.jpg" class="logo" alt="Logo" />
+    <img src="axolotl.jpg" alt="Axolotl" />
+    <div class="label">Scan me for more info</div>
+    <div class="qr">
+      <img src="qr.png" alt="QR Code" />
+    </div>
+  </div>
+</body>
+</html>
